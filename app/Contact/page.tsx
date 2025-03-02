@@ -16,7 +16,7 @@ const page = () => {
         <div>
             <h1 className='font-bold text-2xl flex justify-center items-center'>Contact Us Here</h1>
         </div>
-        <div className='flex justify-evenly items-center mt-40'>
+        <div className=' block md:flex md:justify-evenly md:items-center mt-40'>
             <div className='flex flex-col gap-6 mt-[-120px]'>
                 <p>Need Some Additional Information?</p>
 

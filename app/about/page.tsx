@@ -14,7 +14,7 @@ const page = () => {
             <h1>Brief History in Car Rentals</h1>
         </div>
 
-        <div className='flex justify-evenly items-center'>
+        <div className='block md:flex md:justify-evenly md:items-center'>
             <div>
                 <Image
                 src={car1}
@@ -31,7 +31,7 @@ const page = () => {
                         <h1 className='text-2xl mt-10 font-bold'>Early Days: From Horsepower to Horsepower</h1>
             </div>
         </div>
-        <div className='flex justify-evenly items-center mt-[-300px] ml-4'>
+        <div className='block md:flex md:justify-evenly md:items-center md:mt-[-300px] md:ml-4'>
             <div>
                 <p>The car rental industry has mirrored the evolution of the automobile and the  </p>
                     <p>changing landscape of travel. It plays a vital role in modern transportation, </p>

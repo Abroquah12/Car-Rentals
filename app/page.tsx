@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Image from 'next/image'
-import car4 from '../app/Image/car4.png'
+import car4 from './Image/car4.png'
 import icons8 from '../app/icons/icons8.png'
 import iuser from '../app/icons/iuser.png'
 import icar from '../app/icons/icar.png'
@@ -18,7 +18,7 @@ const page = () => {
     <div className='car_rental_page'>
       <Navbar />
 
-      <div className='flex flex-col md:justify-evenly md:items-center'>
+      <div className='block md:flex md:justify-evenly md:items-center'>
         <div>
         <Image
         src={car4}
@@ -47,7 +47,7 @@ const page = () => {
 
 
       </div>
-      <div className='flex flex-col mt-7 md:justify-center md:items-center md:gap-10 md:mt-5'>
+      <div className='block  md:flex md:justify-center md:items-center md:gap-10 md:mt-5'>
         <div>
 
           <Image
@@ -98,7 +98,7 @@ const page = () => {
           
       </div>
       
-      <div className='flex flex-col md:justify-center md:items-center'>
+      <div className=' block md:flex  md:justify-center md:items-center'>
         <Image
         src={car2}
         alt="Picture of a car"

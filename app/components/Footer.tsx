@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex justify-evenly items-center bg-red-400 p-4 '>
+    <div className='block md:flex md:justify-evenly md:items-center bg-red-400 p-4 '>
         <div className='flex flex-col mt-8'>
             <h1 className='font-bold text-lg'>Working Hours</h1>
             <p className='mt-5'>Mon-Fri: 8:00am - 10:00pm</p>

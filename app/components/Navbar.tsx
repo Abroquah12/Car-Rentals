@@ -10,7 +10,7 @@ function Navbar() {
         };
       return (
         <div className="car_rental_page">
-          <div className="bg-red-400 md:p-0 md:m-0 md:flex md:justify-evenly md:items-center fixed w-full">
+          <div className="bg-red-400 md:p-0 md:m-0 md:flex md:justify-evenly md:items-center fixed w-full absolute top-0">
             <div>
             
               <h1>Car Rentals</h1>
@@ -25,7 +25,7 @@ function Navbar() {
                 Home
               </Link>
               <Link
-                href="/about"
+                href="/About"
                 className="hover:bg-green-400 active:bg-red-700 rounded-lg p-[6px]"
               >
                 About
