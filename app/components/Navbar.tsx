@@ -25,7 +25,7 @@ function Navbar() {
                 Home
               </Link>
               <Link
-                href="/About"
+                href="/about"
                 className="hover:bg-green-400 active:bg-red-700 rounded-lg p-[6px]"
               >
                 About
