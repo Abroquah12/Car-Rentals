@@ -25,7 +25,7 @@ function Navbar() {
                 Home
               </Link>
               <Link
-                href="/about"
+                href="/About"
                 className="hover:bg-green-400 active:bg-red-700 rounded-lg p-[6px]"
               >
                 About
@@ -102,13 +102,13 @@ function Navbar() {
               <Link
                href ='/Login'
               >
-                <button className=" md:flex bg-green-300 p-[6px] rounded-lg cursor-pointer">
+                <button>
                  Login
               </button>
               </Link>
               <Link
               href='/Register'>
-              <button className="md:flex bg-yellow-400 p-[6px] rounded-lg cursor-pointer">
+              <button >
                 Register
               </button>
               </Link>
