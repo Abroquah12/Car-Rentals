@@ -1,34 +1,24 @@
 // pages/register.js
 'use client'
 import { useState } from 'react';
+import Navbar from '../components/Navbar';
 
 export default function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [error, setError] = useState(null);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (password !== confirmPassword) {
-      setError("Passwords do not match");
-      return;
-    }
-
-    // Handle registration logic here (e.g., API call)
-    console.log('Name:', name, 'Email:', email, 'Password:', password);
-    // Clear error on successful submission
-    setError(null);
-  };
+ 
 
   return (
+    <div>
+      <Navbar />
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-6 text-center">Register</h2>
-        {error && <p className="text-red-500 mb-4">{error}</p>}
-        <form onSubmit={handleSubmit}>
+        <p className="text-red-500 mb-4"></p>
+        <form>
           <div className="mb-4">
             <label
               htmlFor="name"
@@ -103,6 +93,7 @@ export default function Register() {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 }

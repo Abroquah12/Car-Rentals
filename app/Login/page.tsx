@@ -6,11 +6,7 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle login logic here
-    console.log('Email:', email, 'Password:', password);
-  };
+
 
   return (
    <div>
@@ -18,7 +14,7 @@ export default function Login() {
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-6 text-center">Login</h2>
-        <form onSubmit={handleSubmit}>
+        <form >
           <div className="mb-4">
             <label
               htmlFor="email"
