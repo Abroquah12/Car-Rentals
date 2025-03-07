@@ -102,13 +102,13 @@ function Navbar() {
               <Link
                href ='/Login'
               >
-                <button className="hidden md:flex bg-green-300 p-[6px] rounded-lg cursor-pointer">
+                <button className=" md:flex bg-green-300 p-[6px] rounded-lg cursor-pointer">
                  Login
               </button>
               </Link>
               <Link
               href='/Register'>
-              <button className="hidden md:flex bg-yellow-400 p-[6px] rounded-lg cursor-pointer">
+              <button className="md:flex bg-yellow-400 p-[6px] rounded-lg cursor-pointer">
                 Register
               </button>
               </Link>
