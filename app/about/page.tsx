@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 const page = () => {
   return (
-    <div className='about_page'>
+    <div className='about_page bg-blue-950 text-white'>
         <Navbar /><br /><br />
         <div className='flex justify-center items-center font-bold text-2xl'>
             <h1>Brief History in Car Rentals</h1>

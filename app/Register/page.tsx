@@ -12,7 +12,7 @@ export default function Register() {
  
 
   return (
-    <div>
+    <div className='bg-blue-950 text-white'>
       <Navbar />
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-96">

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Image from 'next/image'
-import car4 from './Image/car4.png'
+import Jeep1 from './Image/Jeep1.png'
 import icons8 from '../app/icons/icons8.png'
 import iuser from '../app/icons/iuser.png'
 import icar from '../app/icons/icar.png'
@@ -15,15 +15,15 @@ import Footer from './components/Footer'
 
 const page = () => {
   return (
-    <div className='car_rental_page'>
+    <div className='car_rental_page bg-blue-950 text-white'>
       <Navbar />
 
       <div className='block md:flex md:justify-evenly md:items-center'>
         <div>
         <Image
-        src={car4}
+        src={Jeep1}
         alt="Picture of a car"
-        width={400}
+        width={800}
         height={100}
         className='mt-14'
        />

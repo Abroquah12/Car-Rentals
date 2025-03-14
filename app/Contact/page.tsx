@@ -11,7 +11,7 @@ const page = () => {
         window.alert("Message Received Successfully")
     }
   return (
-    <div className='Contact_page'>
+    <div className='Contact_page bg-blue-950 text-white'>
         <Navbar /><br /><br /><br />
         <div>
             <h1 className='font-bold text-2xl flex justify-center items-center'>Contact Us Here</h1>

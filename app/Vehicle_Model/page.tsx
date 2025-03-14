@@ -57,7 +57,7 @@ export default function Home() {
   ];
 
   return (
-    <div>
+    <div className='bg-blue-950 text-white'>
       <Navbar /><br />
 
       <main className="flex flex-col items-center justify-center min-h-screen py-2">
