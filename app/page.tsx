@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 
 const page = () => {
   return (
-    <div className='car_rental_page bg-blue-950 text-white  w-full max-w-screen overflow-x-hidden'>
+    <div className='car_rental_page  text-black  w-full max-w-screen overflow-x-hidden'>
       <Navbar />
 
       <div className='block md:flex md:justify-evenly md:items-center'>
@@ -39,7 +39,7 @@ const page = () => {
             your needs, from compact cars to SUVs.
              <p> Book online today and enjoy special discounts!</p>
 
-             <button className='flex justify-center items-center h-6 w-[120px] bg-red-400 rounded-md mt-10 p-4'>
+             <button className='flex justify-center items-center h-6 w-[120px] bg-green-400 rounded-md mt-10 p-4'>
               Book Ride
               </button>
 

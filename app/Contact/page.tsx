@@ -11,7 +11,7 @@ const page = () => {
         window.alert("Message Received Successfully")
     }
   return (
-    <div className='Contact_page bg-blue-950 text-white'>
+    <div className='Contact_page  text-black w-full max-w-screen overflow-x-hidden'>
         <Navbar /><br /><br /><br />
         <div>
             <h1 className='font-bold text-2xl flex justify-center items-center'>Contact Us Here</h1>
@@ -53,7 +53,7 @@ const page = () => {
                 <h2>Enter Message</h2>
                 <input type="text" placeholder='I want help.......'  className='w-[250px] h-[100px] border border-gray-300 rounded px-4 py-2'/>
 
-                <button className='rounded-md bg-red-400 p-5' onClick={Message}>Send Message......</button>
+                <button className='rounded-md bg-green-400 p-5' onClick={Message}>Send Message......</button>
 
 
             </div>

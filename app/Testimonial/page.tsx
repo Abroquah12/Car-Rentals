@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 
 const page = () => {
   return (
-    <div className='Testimonial_page bg-blue-950 text-white'>
+    <div className='Testimonial_page  text-black w-full max-w-screen overflow-x-hidden'>
         <Navbar /><br /><br />
         <div className='text-2xl font-bold flex justify-center items-center'>
             Testimonials

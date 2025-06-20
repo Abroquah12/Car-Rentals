@@ -10,7 +10,7 @@ function Navbar() {
         };
       return (
         <div className="car_rental_page">
-          <div className="bg-red-400 md:p-0 md:m-0 md:flex md:justify-evenly md:items-center fixed w-full absolute top-0">
+          <div className="bg-red-400 md:p-0 md:m-0 md:flex md:justify-evenly md:items-center fixed w-full  top-0">
             <div>
             
               <h1>Car Rentals</h1>
@@ -53,13 +53,13 @@ function Navbar() {
               <Link
                href ='/Login'
               >
-                <button className="hidden md:flex bg-red-300 p-[6px] rounded-lg cursor-pointer">
+                <button className="hidden md:flex bg-green-400 p-[6px] rounded-lg cursor-pointer">
                  Login
               </button>
               </Link>
               <Link
               href='/Register'>
-              <button className="hidden md:flex bg-red-300 p-[6px] rounded-lg cursor-pointer">
+              <button className="hidden md:flex bg-green-400 p-[6px] rounded-lg cursor-pointer">
                 Register
               </button>
               </Link>

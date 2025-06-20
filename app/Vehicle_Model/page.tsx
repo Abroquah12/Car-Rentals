@@ -57,7 +57,7 @@ export default function Home() {
   ];
 
   return (
-    <div className='bg-blue-950 text-white'>
+    <div className=' text-black w-full max-w-screen overflow-x-hidden'>
       <Navbar /><br />
 
       <main className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -76,7 +76,7 @@ export default function Home() {
               <div className="mt-4">
                 {/* ... (rest of the car details) ... */}
               </div>
-              <button className="mt-6 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full w-full">
+              <button className="mt-6 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full w-full">
                 Book Ride {/* ... (rest of the button content) ... */}
               </button>
             </div>
