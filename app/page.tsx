@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 
 const page = () => {
   return (
-    <div className='car_rental_page bg-blue-950 text-white'>
+    <div className='car_rental_page bg-blue-950 text-white  w-full max-w-screen overflow-x-hidden'>
       <Navbar />
 
       <div className='block md:flex md:justify-evenly md:items-center'>
